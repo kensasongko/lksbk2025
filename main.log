@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  23 JAN 2025 04:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  23 JAN 2025 05:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,10 +457,10 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  67i,6n,77p,328b,620s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ken/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} </home/ken/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb2074.600pk></usr/share/texmf/fonts/type1/public/tex-gyre/qbkb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb>
-Output written on main.pdf (7 pages, 170598 bytes).
+Output written on main.pdf (7 pages, 170389 bytes).
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 167 compressed objects within 2 object streams
  72 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1737582393 "/home/ken/sources/lks/lksccbekasi2025_soal/main.tex" "main.pdf" "main" 1737582393
+["pdflatex"] 1737583399 "/home/ken/sources/lks/lksccbekasi2025_soal/main.tex" "main.pdf" "main" 1737583399
   "/etc/texmf/web2c/texmf.cnf" 1683099878 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ken/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb2074.600pk" 1714808258 55320 b130031c4cb2ad3e1e7d9f4903129a6d ""
   "/home/ken/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk" 1683106643 20008 12edcac1cecf36e7e3a912780fa7378e ""
-  "/home/ken/sources/lks/lksccbekasi2025_soal/main.tex" 1737582392 16945 22e6a366f1e09de5c08608ec1ea81b11 ""
+  "/home/ken/sources/lks/lksccbekasi2025_soal/main.tex" 1737583399 17047 01712108ea7b5ed4bc1a0c7b37c06548 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrb2074.tfm" 1136768653 3584 9fcfbafd08a222cf27d70d3a45a69f05 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -103,9 +103,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710734101 1405646 1dd8a127b74a57a6461060b0299c7735 ""
   "assets/architecture.png" 1737295226 38889 a5d364cb10b40131f6710e578862133a ""
   "assets/logo_lks.png" 1714805751 41250 5489304735c1604a117fd78ddffadd44 ""
-  "main.aux" 1737582393 2237 3631ae60ea869c34d3c36e9e86588258 "pdflatex"
-  "main.out" 1737582393 741 8d8a0935746b34f6c521ab3e3bf57a2c "pdflatex"
-  "main.tex" 1737582392 16945 22e6a366f1e09de5c08608ec1ea81b11 ""
+  "main.aux" 1737583399 2237 3631ae60ea869c34d3c36e9e86588258 "pdflatex"
+  "main.out" 1737583399 741 8d8a0935746b34f6c521ab3e3bf57a2c "pdflatex"
+  "main.tex" 1737583399 17047 01712108ea7b5ed4bc1a0c7b37c06548 ""
   (generated)
   "main.aux"
   "main.log"

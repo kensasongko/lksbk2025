@@ -136,20 +136,20 @@ Refer to Figure \ref{fig:architecture}.
 
 \begin{enumerate}
   \item The repository URL for the required source code to deploy this solution is:\\
-  \href{https://github.com/kensasongko/lksccjabar2024modul2_aplikasi}{https://github.com/kensasongko/lksccjabar2024modul2\_aplikasi}
+  \href{https://github.com/kensasongko/lksbk2025}{https://github.com/kensasongko/lksbk2025}
   \item This solution must be deployed in \textbf{us-east-1 (North Virginia)} region. Deploying in another region will result in a major point reduction.
   \item An automated scoring system will check your AWS account to calculate the score of your task.
   \item In order check your progress, the scoring system needs an AWS credential with administrator privilege. You will be asked to provide the AWS credential.
-  \item AWS tag is used by the scoring system to find your solution. Forgetting to add the required tag or adding the same tag value to multiple instance may result in an unexpected behavior and thus lower your score.
+  \item AWS tag is used by the scoring system to find your solution. Failing to add the required tag or adding the same tag value to multiple instance may result in an unexpected behavior and thus lower your score.
   \item The system will calculate 90\% of the final score. The remaining 10\% will be evaluated by checking the assignment manually.
-  \item If multiple participants complete the assignment, their completion times will factor into the manual scoring process. For instance, the first participant to finish will receive a full score, while subsequent finishers will incur minor penalties.
+  \item If multiple participants completed the assignment, their completion times will factor into the manual scoring process. For instance, the first participant to finish will receive a full score, while subsequent finishers will incur minor penalties.
 \end{enumerate}
 
 \section{Task}
 Your goal is to deploy the solution from the section \ref{architecture}. Follow the following instructions to deploy the solution.
 \begin{enumerate}
-\item \label{create_r53} Create a hosted zone for your domain in AWS Route 53 and point the nameservers accordingly. You may skip this task if you have already done it.
-\item \label{create_acm} Create a certificate for *.[YOU\_DOMAIN] in ACM for CloudFront and for API Gateway
+\item \label{create_r53} Create a hosted zone for your domain in AWS Route 53 and point the nameservers accordingly.
+\item \label{create_acm} Create a certificate for *.[YOU\_DOMAIN] in ACM for CloudFront and API Gateway
 \item \label{create_ddb} Create 2 Dynamo DB tables with the following configurations:
   \begin{enumerate}
     \item User table
@@ -287,7 +287,7 @@ Connected (press CTRL+C to quit)
       On the prompt, type the following json and press enter:
       \begin{verbatim}
 Connected (press CTRL+C to quit)
-> {"action":"sendusername","username":"kenuser1"}
+> {"action":"sendusername","username":"testuser1"}
 > 
       \end{verbatim}
       If you have setup the sendusername handler correctly, you should see the username is now stored in user table and the message table should at least have 1 new item.
@@ -374,21 +374,22 @@ Connected (press CTRL+C to quit)
   \item Using a browser, open http://chat.[YOUR\_DOMAIN]. The server should redirect you to https://chat.[YOUR\_DOMAIN].
   \item Input wss://api.[YOUR\_DOMAIN] into the URL textbox and user1 into the Username textbox. Press the Join button.
   \item Open another browser window or tab and repeat step 1 and 3 but now enter a different username (e.g., user2)
-  \item The other chat window should receive a message '[user] has joined'.
-  \item Type hello and press the Send button.
-  \item The other chat window should receive a message '[user]: Hello'.
+  \item The other chat window should receive a message '[user] has joined the chat'.
+  \item Type hello and press the Send button. The other chat window should receive a message '[user]: Hello'.
+  \item Press Leave button and the other chat window should receive a messge '[user] has left the chat'.
 \end{enumerate}
 \section{References}\label{references}
 \begin{itemize}
   \item \href{https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html}{Amazon DynamoDB}
+  \item \href{https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html}{AWS IAM}
   \item \href{https://docs.aws.amazon.com/lambda/latest/dg/welcome.html}{AWS Lambda}
   \item \href{https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html}{Amazon API Gateway}
   \item \href{https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html}{Amazon S3}
   \item \href{https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html}{Amazon CloudFront}
   \item \href{https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html}{Amazon Route 53}
-  \item \href{https://docs.npmjs.com/downloading-and-installing-node-js-and-npm} npm
-  \item \href{https://www.npmjs.com/package/wscat} wscat - npm
-  \item \href{https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-wscat.html} Use wscat to connect to a WebSocket API and send messages to it
+  \item \href{https://docs.npmjs.com/downloading-and-installing-node-js-and-npm}{npm}
+  \item \href{https://www.npmjs.com/package/wscat}{wscat - npm}
+  \item \href{https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-wscat.html}{Use wscat to connect to a WebSocket API and send messages to it}
 \end{itemize}
 \section*{Good luck!}
 \end{document}
